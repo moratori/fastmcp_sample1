@@ -1,0 +1,45 @@
+{
+  "name": "MyServer",
+  "instructions": null,
+  "fastmcp_version": "2.11.3",
+  "mcp_version": "1.13.0",
+  "server_version": null,
+  "tools": [
+    {
+      "key": "get_japanese_weather",
+      "name": "get_japanese_weather",
+      "description": "Get today's weather for the specified prefecture in Japan and return either “sunny,” “cloudy,” or “rainy.”",
+      "input_schema": {
+        "properties": {
+          "japanese_prefecture_name": {
+            "title": "Japanese Prefecture Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "japanese_prefecture_name"
+        ],
+        "type": "object"
+      },
+      "annotations": null,
+      "tags": null,
+      "enabled": true
+    }
+  ],
+  "prompts": [],
+  "resources": [],
+  "templates": [],
+  "capabilities": {
+    "tools": {
+      "listChanged": true
+    },
+    "resources": {
+      "subscribe": false,
+      "listChanged": false
+    },
+    "prompts": {
+      "listChanged": false
+    },
+    "logging": {}
+  }
+}

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mcp-proxy2"
+version = "0.1.0"
+description = ""
+authors = ["ozaki <ozaki@datasign.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastmcp = "^2.11.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
